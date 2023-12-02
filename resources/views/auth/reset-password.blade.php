@@ -122,11 +122,9 @@
     <script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
     <script src="js/custom.min.js"></script>
     <script src="js/deznav-init.js"></script>
-    <script src="js/demo.js"></script>
-    <script src="js/styleSwitcher.js"></script>
+
 
 </body>
 
-<!-- Mirrored from eres.dexignzone.com/xhtml/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2023 07:53:27 GMT -->
 
 </html>

@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 
-<!-- Mirrored from eres.dexignzone.com/xhtml/page-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2023 07:54:30 GMT -->
 
 <head>
 
@@ -126,8 +125,7 @@
     <script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
     <script src="js/custom.min.js"></script>
     <script src="js/deznav-init.js"></script>
-    <script src="js/demo.js"></script>
-    <script src="js/styleSwitcher.js"></script>
+
 
 </body>
 
