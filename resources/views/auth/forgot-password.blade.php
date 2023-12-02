@@ -1,29 +1,4 @@
-{{-- <x-guest-layout>
-    <div class="mb-4 text-sm text-gray-600 dark:text-gray-400">
-        {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
-    </div>
 
-    <!-- Session Status -->
-    <x-auth-session-status class="mb-4" :status="session('status')" />
-
-    <form method="POST" action="{{ route('password.email') }}">
-        @csrf
-
-        <!-- Email Address -->
-        <div>
-            <x-input-label for="email" :value="__('Email')" />
-            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required
-                autofocus />
-            <x-input-error :messages="$errors->get('email')" class="mt-2" />
-        </div>
-
-        <div class="flex items-center justify-end mt-4">
-            <x-primary-button>
-                {{ __('Email Password Reset Link') }}
-            </x-primary-button>
-        </div>
-    </form>
-</x-guest-layout> --}}
 
 
 <!DOCTYPE html>
@@ -38,19 +13,28 @@
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="DexignZone">
-    <meta name="robots" content="">
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="{{ asset('/assets/images/10x.jpg') }}" type="image/x-icon">
 
-    <meta name="keywords"
-        content="	admin dashboard, admin template, administration, analytics, bootstrap, disease, doctor, elegant, health, hospital admin, medical dashboard, modern, responsive admin dashboard">
-    <meta name="description"
-        content="Our HTML Admin Dashboard is built with a responsive design, ensuring seamless compatibility across different devices and screen sizes. The user-friendly interface makes navigation intuitive and straightforward for administrators.">
 
-    <meta property="og:title" content="ERES - Hospital Admin Dashboard Bootstrap HTML Template">
-    <meta property="og:description"
-        content="Our HTML Admin Dashboard is built with a responsive design, ensuring seamless compatibility across different devices and screen sizes. The user-friendly interface makes navigation intuitive and straightforward for administrators.">
-    <meta property="og:image" content="social-image.png">
-    <meta name="format-detection" content="telephone=no">
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="AI Allocation, Funds Platform, Artificial Intelligence, Fund Allocation">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="AI Allocation of Funds Platform">
+    <meta property="og:description" content="Streamlining Fund Allocation with Artificial Intelligence">
+    <meta property="og:image" content="{{ asset('/assets/images/10x.jpg') }}">
+    <meta property="og:url" content="{{ url('/') }}">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI Allocation of Funds Platform">
+    <meta name="twitter:description" content="Streamlining Fund Allocation with Artificial Intelligence">
+    <meta name="twitter:image" content="{{ asset('/assets/images/10x.jpg') }}">
+
 
     <!-- Mobile Specific -->
     <meta name="/viewport" content="width=device-width, initial-scale=1">
