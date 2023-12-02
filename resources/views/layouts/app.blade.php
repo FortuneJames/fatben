@@ -832,8 +832,7 @@
     <script src="/js/dashboard/dashboard-1.js"></script>
     <script src="/js/custom.min.js"></script>
     <script src="/js/deznav-init.js"></script>
-    <script src="/js/demo.js"></script>
-    <script src="/js/styleSwitcher.js"></script>
+  
 
 
 
