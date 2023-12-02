@@ -512,13 +512,13 @@
                                 <li class="animated" data-animate="fadeInUp" data-delay=".4">
                                     <em class="contact-icon fas fa-envelope"></em>
                                     <div class="contact-text">
-                                        <span>info@10xfinancial</span>
+                                        <span>info@tenxfingroup.com</span>
                                     </div>
                                 </li>
                                 <li class="animated" data-animate="fadeInUp" data-delay=".5">
                                     <em class="contact-icon fas fa-paper-plane"></em>
                                     <div class="contact-text">
-                                        <a href="#"><span>Join us on Telegram</span></a>
+                                        <a href="https://t.me/TenXfinancial"><span>Join us on Telegram</span></a>
                                     </div>
                                 </li>
                             </ul>

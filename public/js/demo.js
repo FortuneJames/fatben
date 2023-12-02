@@ -57,16 +57,16 @@ function deleteAllCookie(reload = true){
 	}
 }
 /* Cookies Function END */
- 	
+
 (function($) {
-	
+
 	"use strict"
-	
+
 	var direction =  getUrlParams('dir');
 	var theme =  getUrlParams('theme');
-	
+
 	/* Dz Theme Demo Settings  */
-	
+
 	var dezThemeSet0 = { /* Default Theme */
 		typography: "poppins",
 		version: "light",
@@ -83,7 +83,7 @@ function deleteAllCookie(reload = true){
 		navigationBarImg:'',
 		direction: direction
 	};
-	
+
 	var dezThemeSet1 = {
 		typography: "poppins",
 		version: "light",
@@ -98,7 +98,7 @@ function deleteAllCookie(reload = true){
 		containerLayout: "full",
 		direction: direction
 	};
-	
+
 	var dezThemeSet2 = {
 		typography: "poppins",
 		version: "light",
@@ -113,7 +113,7 @@ function deleteAllCookie(reload = true){
 		containerLayout: "full",
 		direction: direction
 	};
-		
+
 	var dezThemeSet3 = {
 		typography: "poppins",
 		version: "light",
@@ -128,7 +128,7 @@ function deleteAllCookie(reload = true){
 		containerLayout: "full",
 		direction: direction
 	};
-	
+
 	var dezThemeSet4 = {
 		typography: "poppins",
 		version: "light",
@@ -143,7 +143,7 @@ function deleteAllCookie(reload = true){
 		containerLayout: "full",
 		direction: direction
 	};
-	
+
 	var dezThemeSet5 = {
 		typography: "poppins",
 		version: "light",
@@ -158,7 +158,7 @@ function deleteAllCookie(reload = true){
 		containerLayout: "full",
 		direction: direction
 	};
-	
+
 	/*  set switcher option start  */
 	function getElementAttrs(el) {
 		return [].slice.call(el.attributes).map((attr) => {
@@ -168,9 +168,9 @@ function deleteAllCookie(reload = true){
 			}
 		});
 	}
-	
+
 	function handleSetThemeOption(item, index, arr) {
-		
+
 		var attrName = item.name.replace('data-','').replace('-','_');
 		if(attrName === "sidebarbg" || attrName === "primary" || attrName === "headerbg" || attrName === "nav_headerbg" ){
 			if(item.value === "color_1"){
@@ -185,21 +185,21 @@ function deleteAllCookie(reload = true){
 		}else if(attrName === "direction" || attrName === "nav_headerbg" || attrName === "headerbg"){
 		}else if(attrName === "sidebar_style" || attrName === "sidebar_position" || attrName === "header_position" || attrName === "typography" || attrName === "theme_version" ){
 			if(item.value === "cairo" || item.value === "full" || item.value === "fixed"|| item.value === "light"){return false}
-			document.getElementById(attrName).value = item.value;				
+			document.getElementById(attrName).value = item.value;
 		}else if(attrName === "layout"){
 			if(item.value === "vertical"){return false}
-			document.getElementById("theme_layout").value = item.value;		
+			document.getElementById("theme_layout").value = item.value;
 		}
 		else if(attrName === "container"){
 			//console.log(attrName);
 			if(item.value === "wide"){return false}
-			document.getElementById("container_layout").value = item.value;				
+			document.getElementById("container_layout").value = item.value;
 		}
-		
-		
+
+
 		$('.default-select').selectpicker('refresh');
 	}
-	
+
 	function themeChange(theme, direction){
 		var themeSettings = {};
 		themeSettings = eval('dezThemeSet'+theme);
@@ -208,26 +208,26 @@ function deleteAllCookie(reload = true){
 		new dezSettings(themeSettings);
 		setThemeInCookie(themeSettings);
 	}
-	
+
 	function setThemeInCookie(themeSettings){
 		jQuery.each(themeSettings, function(optionKey, optionValue) {
 			setCookie(optionKey,optionValue);
 		});
 	}
-	
+
 	function setThemeLogo() {
 		var logo = getCookie('logo_src');
 		var logo2 = getCookie('logo_src2');
-		
+
 		if(logo != ''){
 			jQuery('.nav-header .logo-abbr').attr("src", logo);
 		}
-		
+
 		if(logo2 != ''){
 			jQuery('.nav-header .logo-compact, .nav-header .brand-title').attr("src", logo2);
 		}
 	}
-	
+
 	function setThemeOptionOnPage(){
 		if(getCookie('version') != ''){
 			jQuery.each(themeOptionArr, function(optionKey, optionValue) {
@@ -236,11 +236,11 @@ function deleteAllCookie(reload = true){
 			});
 			dezSettingsOptions = themeOptionArr;
 			new dezSettings(dezSettingsOptions);
-			
+
 			setThemeLogo();
 		}
 	}
-	
+
 	jQuery(document).on('click', '.dz_theme_demo', function(){
 		setTimeout(() => {
 			var allAttrs = getElementAttrs(document.querySelector('body'));
@@ -258,10 +258,10 @@ function deleteAllCookie(reload = true){
 		setCookie('demo_theme',demoTheme);
 		jQuery('.main-css').attr('href','css/style-rtl.css');
 	});
-	
+
 	jQuery(window).on('load', function(){
 		direction = (direction != undefined) ? direction : 'ltr';
-		
+
 		if(getCookie('direction') == 'rtl'){
 			jQuery('.main-css').attr('href','css/style-rtl.css');
 		}
@@ -269,7 +269,7 @@ function deleteAllCookie(reload = true){
 		if(getCookie('demo_theme') != ''){
 			$('.dz_theme_demo[data-theme="'+getCookie('demo_theme')+'"]').closest('.dz-demo-bx').addClass('demo-active');
 		}
-		
+
 		if(theme != undefined){
 			if(theme == 'rtl'){
 				themeChange(0, 'rtl');
@@ -277,10 +277,10 @@ function deleteAllCookie(reload = true){
 			}else {
 				themeChange(theme, direction);
 			}
-			
+
 		}
 		else if(direction != undefined){
-			if(getCookie('version') == ''){	
+			if(getCookie('version') == ''){
 				themeChange(0, direction);
 			}
 		}
@@ -292,9 +292,9 @@ function deleteAllCookie(reload = true){
 
 		/* Set Theme On Page From Cookie */
 		setThemeOptionOnPage();
-		
+
 	});
-	
+
 	jQuery(window).on('resize', function(){
 		setThemeOptionOnPage();
 	});
