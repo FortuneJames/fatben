@@ -17,7 +17,8 @@
                                 <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial will help
                                     analyses by scoring all basic factors that affect's your Allocation of funds such as
                                     valuation, growth, quality, sentiment, risks ad adjust each factor according to
-                                    market situation to earn higher yields regarding your Allocation of funds choice.</p>
+                                    market situation to earn higher yields regarding your Allocation of funds choice.
+                                </p>
 
                             </div>
                         </div>
@@ -44,14 +45,17 @@
                                     10xfinancial?</h4>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial is the
                                     World’s
-                                    first AI Allocation of funds platform offering real estates, Airbnb and yield farming
+                                    first AI Allocation of funds platform offering real estates, Airbnb and yield
+                                    farming
                                     opportunities. Our Artificial Intelligence (AI) analysis are up to 96% accurate as
-                                    an Allocation of funds powered AI joint with smart support of our experts we thrive to be
+                                    an Allocation of funds powered AI joint with smart support of our experts we thrive
+                                    to be
                                     99.9% at-most.</p>
                                 <p class="animated" data-animate="fadeInUp" data-delay=".4">We tag it the Real world
                                     because we’ve built this system to fulfill investors long term desires/goals.
                                     10xfinancial
-                                    is here to give hope to different Allocation of funds sectors, please do well to also read
+                                    is here to give hope to different Allocation of funds sectors, please do well to
+                                    also read
                                     our FAQs.</p>
 
                             </div>
@@ -61,6 +65,32 @@
             </div>
         </section>
         <!-- // -->
+        <section class="section mask-c-blend-light bg-white ov-h" id="ico">
+            <div class="container">
+                <!-- Block @s -->
+                <div class="nk-block nk-block-text-wrap">
+                    <div
+                        class="row align-items-center justify-content-center justify-content-md-between gutter-vr-30px">
+                        <div class="col-mb-9 col-sm-7 col-md-6 col-lg-5 order-md-last">
+                            <div class="nk-block-img animated" data-animate="fadeInUp" data-delay=".1">
+                                <img src="./assets/images/light/zones.jpg" alt="app">
+                            </div>
+                        </div>
+                        <div class="col-sm-10 col-md-6 text-center text-md-start">
+                            <div class="nk-block-text">
+                                <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">
+                                    Offer With 10xfinancial.</h2>
+                                <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial offers
+                                    Investment in multiple virtual currencies and holding of virtual currencies and assets
+                                    10xfinancial helps you make the best traders and portifolio in virtual currencies
+                                    with the best AI technology and market analysis all in your disposal.</p>
+
+                            </div>
+                        </div>
+                    </div><!-- .row -->
+                </div><!-- .block @e -->
+            </div>
+        </section>
 
         <!-- // -->
         <section class="section section-tokensale bg-white" id="token">
@@ -82,7 +112,8 @@
                                         <img src="./assets/images/yield.jpg" alt="gfx">
                                         <h6 class="title title-s6 title-xs-s2">Yield farming:</h6>
                                         <p>Yield farming is a system where users can deposit cryptocurrency in a pool
-                                            with others to pursue Allocation of funds gains, most typically through interest
+                                            with others to pursue Allocation of funds gains, most typically through
+                                            interest
                                             earned by lending the pooled cryptocurrency to exchanges as liquidity,
                                             mining, futures trading etc. Yield farming is an optimistic strategy with
                                             potential high rewards. </p>
@@ -184,7 +215,8 @@
                                             </h5>
                                             <div id="faq-67-2" class="collapse" data-bs-parent="#faq-67">
                                                 <div class="accordion-content">
-                                                    <p>Yes, Your Allocation of funds Are Highly Guaranteed by the ISS, it's
+                                                    <p>Yes, Your Allocation of funds Are Highly Guaranteed by the ISS,
+                                                        it's
                                                         substantially lincensed and powered by AI to reduce risk</p>
                                                 </div>
                                             </div>
