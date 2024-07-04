@@ -79,7 +79,7 @@
                         <div class="col-sm-10 col-md-6 text-center text-md-start">
                             <div class="nk-block-text">
                                 <h2 class="title animated" data-animate="fadeInUp" data-delay=".2">
-                                    Offer With 10xfinancial.</h2>
+                                   Digital Currency opportunities.</h2>
                                 <p class="lead animated" data-animate="fadeInUp" data-delay=".3">10xfinancial offers
                                     Investment in multiple virtual currencies and holding of virtual currencies and assets
                                     10xfinancial helps you make the best traders and portifolio in virtual currencies
